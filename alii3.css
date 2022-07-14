@@ -1,0 +1,248 @@
+.alii{
+    
+    font-size: 20px;
+}
+.title{
+    font-size: 25px;
+}
+.ali1{
+    font-size: 17px;
+}
+.ali2{
+    font-size: 17px;
+}
+.ali3{
+    font-size: 17px;
+}
+.ali4{
+    font-size: 17px;
+}
+.ali5{
+    font-size: 17px;
+}
+/*-------------------------------------------*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+ 
+  * {box-sizing: border-box;}
+
+/* Style the navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the input container */
+.topnav .search-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+/* Style the button inside the input container */
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------*/
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    font: 1em "open sans" , sans-serif;
+ }
+ body{
+    background-color:#ccc;
+ }
+ 
+ /*------------------*/
+ .menu{
+    width: 100%;
+    background-color: #0a0a0a;
+    color: #fff;
+    height: 60px;
+ }
+ .menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+ }
+ .menu > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+ }
+
+ .menu > ul > li {
+    float: left;
+ }
+
+ .menu-item{
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+ }
+ .menu-item:hover{
+    background-color: #ff0055;
+    height: 100%;
+ }
+
+ .sub-contect{
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: #333;
+    max-height: 0;
+ }
+ .sub-contect a {
+    color: #fff;
+    text-decoration: none;
+ }
+ .sub-drop{
+    padding: 0; 
+ }
+
+ .sub-drop ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+ }
+
+
+ .sub-drop ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+ }
+
+ .sub-drop ul li:hover{
+    background-color: #ff0055;
+ }
+
+ .menu-item:focus{
+    background-color: #ff0055;
+ }
+
+ .menu ul li:hover .sub-contect{
+    max-height: 400px;
+    transition: max-height 0.7s ease-in;
+    -webkit-transition: max-height 0.7s ease-in;
+    -moz-transition: max-height 0.7s ease-in;
+ }
+ #rmenu{
+    float: right;
+ }
+
+ .myimg{
+    width: 60px;
+ }
+
+ .المحترف{
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 30px;
+
+ }
+
+
+.stt{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+
+.boody{
+    padding-right: 0px;
+}
+
+
+
